@@ -17,7 +17,6 @@ export default {
   methods: {
     getList() {
       userApi.getList().then(data => {
-        console.log('log', data)
         this.list = data.data
       })
     }
