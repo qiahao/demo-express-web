@@ -12,5 +12,11 @@ export default {
       method: 'POST',
       data
     })
+  },
+  delete(id) {
+    return axios({
+      url: `${URL}/${id}`,
+      method: 'delete'
+    })
   }
 }
