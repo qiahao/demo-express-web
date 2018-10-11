@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/add">add</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style>
+*{
+  margin: 0;
+  padding: 0;
+}
 #app {
-  max-width: 1000px;
-  margin: 60px auto;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
